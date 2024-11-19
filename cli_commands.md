@@ -62,7 +62,7 @@
 - cd /Users/username/projects
 
 # Relative Path:
-- Relative Path: Specifies the path relative to the current working directo
+- Relative Path: Specifies the path relative to the current working directory
 - cd projects/new_project
 
 # Executing node code straight from cli
@@ -73,3 +73,6 @@
 
 # Create a file and write some content 
 echo "some text " > fileName.fileExtension
+
+# List hidden files
+ls -a
