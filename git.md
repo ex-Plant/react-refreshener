@@ -30,19 +30,6 @@ git commit -m "Initial commit"
 
 Create GitHub repository
 
-
-Go to GitHub → + → New repository
-Name it, don't initialize with README/gitignore
-Copy provided remote add command
-
-
-Link local repo to GitHub
-
-git remote add origin https://github.com/yourusername/my-new-project.git
-git branch -M main
-git push -u origin main
-Method 2: Starting on GitHub
-
 GitHub → + → New repository
 
 
@@ -50,5 +37,14 @@ Name project
 Choose public/private
 Optionally add README, .gitignore, license
 
-
 Clone to local machine
+
+git clone 'url'
+
+Current  branch
+- git branch
+
+All branches git branch -a
+
+Add new branch 
+- git branch 'branchName' 
